@@ -1,0 +1,73 @@
+main#planos{
+   margin-bottom: 150px;
+   .plano{
+      color: #fff;
+      text-align: center;
+      margin-bottom: 15px;
+      padding: 50px 0 20px 0;
+      .numero{
+         h3{
+            font-size: 21px;
+            margin: -10px;
+         }
+         h2{
+            font-size: 60px;
+            margin-bottom: 20px;
+         }
+      }
+      hr{
+         width: 60%;
+         border-width: 2px;
+         border-color: #e16200;
+         margin: 10px auto;
+      }
+      .velocidade{
+         h1{
+            font-size: 90px; 
+            span{
+               font-size: 45px;
+            }
+         }
+      }
+      &:nth-child(4n+1){
+         background: #fa8429;
+      }
+      &:nth-child(4n+2){
+         background: #c05400;
+      }
+      &:nth-child(4n+3){
+         background: #a24701;
+      }
+      &:nth-child(4n+4){
+         background: #763401;
+      }
+   }
+   hr{
+      border-width: 2px;
+      border-color:#bbbbbb;
+      margin: 40px;
+   }
+   .mude-plano{
+      p{
+         margin: 0;
+         color: #000;
+         font-size: 25px;
+         span{
+            font-weight: 700;
+         }
+      }
+      a{
+         background: #fa8429;
+         display: block;
+         color: #fff;
+         padding: 10px 20px;
+         font-weight: 700;
+         text-decoration: none;
+         font-size: 25px;
+         &:hover{
+            background: darken(#fa8429,10%);
+         }
+      }
+
+   }
+}

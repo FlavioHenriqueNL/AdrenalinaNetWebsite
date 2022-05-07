@@ -1,0 +1,38 @@
+main#area-cobertura.page{
+   .area{
+      padding: 20px;
+      margin-bottom: 20px;
+      color: #fff;
+      background: #fa8429;
+      background: url(../img/background-area.png);
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      i{
+         color: #fbc59b;
+         font-size: 50px;
+         padding-top: 30px;
+      }
+      .cidade{
+         h1{
+            font-size: 30px;
+            font-weight: 700;
+         }
+         p{
+            font-size: 15px;
+         }
+      }
+      .btn-warning{
+         background: #e06404;
+         color: #fff;
+         width: 80%;
+         margin: 0 auto;
+      }
+      h5{
+         color: #000;
+      }
+     
+   }
+}

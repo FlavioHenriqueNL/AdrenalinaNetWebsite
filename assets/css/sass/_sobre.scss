@@ -1,0 +1,22 @@
+main#index{
+   .sobre{
+      padding-bottom: 50px;
+      text-align: center;
+      .titulo{
+         h1{
+            font-size: 40px;
+            font-weight: 700;
+         }
+      }
+      .conteudo{
+         p{
+            color: #747272;
+            font-size: 20px;
+         }
+      }
+      @media(max-width: 768px){
+         padding: 15px 0;
+      }
+   }
+   
+}

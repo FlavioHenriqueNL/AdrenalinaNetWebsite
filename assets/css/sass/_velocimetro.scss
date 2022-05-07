@@ -1,0 +1,60 @@
+main#index{
+   #velocimetro{
+      position: relative;
+      display: flex;
+      align-items: center;
+      @media(max-width: 768px) {
+         .container{
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 0;
+         }
+      }
+      #background{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 1em;
+      }
+      .conteudo{
+         position: absolute;
+         color: #fff;
+         text-align: center;
+         h1{
+            //font-size: 7vw;
+            font-size: 70px;
+            font-weight: 700;
+            margin-bottom: 0px;
+         }
+         h2{
+            font-size: 35px;
+            //font-size: 3.5vw;
+            font-weight: 400;
+         }
+         a{
+            display: block;
+            margin: 15px auto 0 auto;
+            background: #c05400;
+            color: #fff;
+            width: 50%;
+            &:hover{
+               background: darken(#c05400, 5%);
+            }
+            @media(max-width: 576px){
+               width: 45%;
+               margin-top: 0px;
+               font-size: 2.5vw;
+            }
+         }
+         @media(max-width: 768px){
+            h1{
+               font-size: 8vw;
+            }
+            h2{
+               font-size: 4.5vw;
+            }
+         }
+      }
+     
+   }
+}

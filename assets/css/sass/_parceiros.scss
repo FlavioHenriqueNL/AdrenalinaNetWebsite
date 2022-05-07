@@ -1,0 +1,20 @@
+main#parceiros.page{
+   .parceiro{
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+         filter: grayscale(100%)  brightness(150%);
+         &:hover{
+            filter: none;
+         }
+      }
+   }
+   .modal{
+      padding: 0 !important;
+      .modal-contet{
+         max-width: 800px !important;
+      }
+   }
+}
